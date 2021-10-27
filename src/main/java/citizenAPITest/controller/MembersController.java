@@ -15,7 +15,7 @@ import citizenAPITest.entity.Member;
 import citizenAPITest.repository.MemberRepository;
 
 @RestController
-@RequestMapping("/api/v1/")
+@RequestMapping("/api/v1")
 public class MembersController {
 	
 	@Autowired
@@ -28,6 +28,7 @@ public class MembersController {
 		try {
 			List<Order> orders = new ArrayList<Order>();
 			List<Member> response = new ArrayList<Member>();
+			
 			if(sorts == null && filter == null) {
 				response = repo.findAll();
 			} else {
