@@ -31,5 +31,5 @@ public class Member {
 	private String postcode;
 	private String countrycode;
 	private String gender;
-	private String dateofbirth_DMY;
+	private String dateofbirth;
 }
