@@ -1,14 +1,9 @@
-# citizenapibackend
-citizen restful api backend
+# citizen restful api backend test
 
 **Dev tool:** SpringBootSuite
-
 **Testing tool:** Postman
-
 **Database:** MySQL(dev environment), Heroku PostgreSQL(production environment)
-
 **Cloud:** Heroku
-
 **Version control:** Github
 
 
