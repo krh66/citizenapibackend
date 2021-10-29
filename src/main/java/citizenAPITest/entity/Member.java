@@ -23,18 +23,13 @@ public class Member {
 	@Column(unique = true)
 	private Long id;
 	private String firstname;
-	private String surname; //can be empty?
+	private String surname;
 	private String address1;
-	private String address2; //can be empty?
+	private String address2;
 	private String city;
 	private String state;
 	private String postcode;
 	private String countrycode;
 	private String gender;
 	private String dateofbirth_DMY;
-	/*
-	@JsonIgnore
-	@DateTimeFormat(pattern="yyyy/MM/dd")
-	private Date dateofbirth_YMD;
-	*/
 }
